@@ -1,7 +1,7 @@
 FROM floydhub/dl-docker:cpu
 MAINTAINER Christopher Baker <info@christopherbaker.net>
 
-ENV MAKEFLAGS="-j$(nproc) -s"
+#ENV MAKEFLAGS="-j$(nproc) -s"
 ARG DLIB_VERSION=19.3
 
 # Make sure PIP is up-to-date.
